@@ -1,0 +1,17 @@
+check,status,detail
+master_file_unchanged,PASS,c6cdd7ca0838af17732bf3539c372df93cadde8fd0ee8289e9934a02c71ab4e7
+master_grid,PASS,rows=396
+required_outputs_exist,PASS,all present
+single_prespecified_bandwidth,PASS,[3]
+panel_output_shape,PASS,"rows=12, n=[np.int64(360)]"
+independent_panel_coefficients,PASS,max_abs_diff=4.47e-11
+independent_panel_standard_errors,PASS,max_abs_diff=4.63e-11
+model_a_preserves_phase2_coefficients,PASS,max_abs_diff=0
+time_fe_design_identified,PASS,rank=2 for all Model B outcomes
+independent_interaction_coefficients,PASS,max_abs_diff=3.94e-11
+independent_interaction_standard_errors,PASS,max_abs_diff=4.67e-11
+interaction_sample,PASS,"n=720, months=120"
+notebook_executed,PASS,executed=6/6
+notebook_has_no_errors,PASS,errors=0
+report_records_fixed_specification,PASS,Bartlett bandwidth 3 documented
+report_uses_associational_language,PASS,no causal claim detected

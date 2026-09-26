@@ -1,0 +1,17 @@
+check,scope,observed,expected,status,details
+expected_master_grid_rows,all,396,396,PASS,3 countries x 132 months
+duplicate_country_date_rows,all,0,0,PASS,candidate key: country_code + date
+date_coverage,NL,132 months,"132 months, 2015-01-01 to 2025-12-01",PASS,missing=0; unexpected=0
+date_coverage,DE,132 months,"132 months, 2015-01-01 to 2025-12-01",PASS,missing=0; unexpected=0
+date_coverage,FR,132 months,"132 months, 2015-01-01 to 2025-12-01",PASS,missing=0; unexpected=0
+unexpected_gaps,calendar_and_core_source_series,0,0,PASS,"Derived-variable structural nulls are reported separately, not treated as unexpected gaps"
+structural_missingness,retail_total_yoy,36,36,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,retail_food_yoy,36,36,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,retail_nonfood_yoy,36,36,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,consumer_confidence_lag1,3,3,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,consumer_confidence_lag2,6,6,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,consumer_confidence_lag3,9,9,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,inflation_lag1,3,3,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,inflation_lag2,6,6,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+structural_missingness,inflation_lag3,9,9,PASS,Expected from within-country 12-month change or 1-3 month lag construction
+sort_order,all,"country_code,date","country_code,date",PASS,lexicographic country code followed by chronological ISO date

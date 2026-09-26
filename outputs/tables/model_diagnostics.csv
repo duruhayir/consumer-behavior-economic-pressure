@@ -1,0 +1,34 @@
+model,outcome,diagnostic,value,reference
+Pooled country-FE OLS,retail_total_yoy,residual_skew,1.610439539,0 indicates symmetry
+Pooled country-FE OLS,retail_total_yoy,residual_kurtosis,31.52603255,3 is normal-reference kurtosis
+Pooled country-FE OLS,retail_total_yoy,jarque_bera_p_value,0,small values indicate non-normal residuals
+Pooled country-FE OLS,retail_total_yoy,breusch_pagan_p_value,0.1254604568,small values indicate heteroskedasticity
+Pooled country-FE OLS,retail_total_yoy,durbin_watson,1.050553503,2 is no first-order autocorrelation reference
+Pooled country-FE OLS,retail_total_yoy,breusch_godfrey_lag3_p_value,9.899035683e-18,small values indicate serial correlation through lag 3
+Pooled country-FE OLS,retail_total_yoy,max_cooks_distance,0.2647408648,inspect rather than automatically delete influential observations; max at FR 2020-04-01
+Pooled country-FE OLS,retail_total_yoy,count_cooks_gt_4_over_n,15,heuristic influence count
+Pooled country-FE OLS,retail_total_yoy,max_abs_external_studentized_residual,10.32267952,large absolute values flag extremes
+Pooled country-FE OLS,retail_total_yoy,vif_inflation_yoy,1.927681129,VIF near 1 is low; values above 5 merit concern
+Pooled country-FE OLS,retail_total_yoy,vif_consumer_confidence,2.022281549,VIF near 1 is low; values above 5 merit concern
+Pooled country-FE OLS,retail_food_yoy,residual_skew,0.8066003638,0 indicates symmetry
+Pooled country-FE OLS,retail_food_yoy,residual_kurtosis,5.414438365,3 is normal-reference kurtosis
+Pooled country-FE OLS,retail_food_yoy,jarque_bera_p_value,3.431211978e-28,small values indicate non-normal residuals
+Pooled country-FE OLS,retail_food_yoy,breusch_pagan_p_value,0.04242848529,small values indicate heteroskedasticity
+Pooled country-FE OLS,retail_food_yoy,durbin_watson,1.002684601,2 is no first-order autocorrelation reference
+Pooled country-FE OLS,retail_food_yoy,breusch_godfrey_lag3_p_value,2.898208527e-24,small values indicate serial correlation through lag 3
+Pooled country-FE OLS,retail_food_yoy,max_cooks_distance,0.1441504811,inspect rather than automatically delete influential observations; max at NL 2022-09-01
+Pooled country-FE OLS,retail_food_yoy,count_cooks_gt_4_over_n,27,heuristic influence count
+Pooled country-FE OLS,retail_food_yoy,max_abs_external_studentized_residual,4.537660282,large absolute values flag extremes
+Pooled country-FE OLS,retail_food_yoy,vif_inflation_yoy,1.927681129,VIF near 1 is low; values above 5 merit concern
+Pooled country-FE OLS,retail_food_yoy,vif_consumer_confidence,2.022281549,VIF near 1 is low; values above 5 merit concern
+Pooled country-FE OLS,retail_nonfood_yoy,residual_skew,2.548423519,0 indicates symmetry
+Pooled country-FE OLS,retail_nonfood_yoy,residual_kurtosis,35.35701999,3 is normal-reference kurtosis
+Pooled country-FE OLS,retail_nonfood_yoy,jarque_bera_p_value,0,small values indicate non-normal residuals
+Pooled country-FE OLS,retail_nonfood_yoy,breusch_pagan_p_value,0.2829531317,small values indicate heteroskedasticity
+Pooled country-FE OLS,retail_nonfood_yoy,durbin_watson,1.04946666,2 is no first-order autocorrelation reference
+Pooled country-FE OLS,retail_nonfood_yoy,breusch_godfrey_lag3_p_value,5.475737396e-19,small values indicate serial correlation through lag 3
+Pooled country-FE OLS,retail_nonfood_yoy,max_cooks_distance,0.2047103535,inspect rather than automatically delete influential observations; max at FR 2020-04-01
+Pooled country-FE OLS,retail_nonfood_yoy,count_cooks_gt_4_over_n,16,heuristic influence count
+Pooled country-FE OLS,retail_nonfood_yoy,max_abs_external_studentized_residual,11.1857476,large absolute values flag extremes
+Pooled country-FE OLS,retail_nonfood_yoy,vif_inflation_yoy,1.927681129,VIF near 1 is low; values above 5 merit concern
+Pooled country-FE OLS,retail_nonfood_yoy,vif_consumer_confidence,2.022281549,VIF near 1 is low; values above 5 merit concern

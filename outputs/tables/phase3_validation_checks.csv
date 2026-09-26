@@ -1,0 +1,27 @@
+check,status,detail
+master_file_unchanged,PASS,c6cdd7ca0838af17732bf3539c372df93cadde8fd0ee8289e9934a02c71ab4e7
+tableau_wide_shape,PASS,"rows=396, columns=['country_code', 'country', 'date', 'inflation_yoy', 'consumer_confidence', 'retail_total_yoy', 'retail_food_yoy', 'retail_nonfood_yoy']"
+tableau_wide_unique_key,PASS,duplicates=0
+tableau_wide_matches_master,PASS,all selected values reconciled
+tableau_long_shape,PASS,"rows=1188, category_counts={'Total': 396, 'Food': 396, 'Non-food': 396}"
+tableau_long_unique_key,PASS,duplicates=0
+tableau_long_matches_wide,PASS,max_abs_diff=0
+structural_missingness_preserved,PASS,"wide_missing={'retail_total_yoy': 36, 'retail_food_yoy': 36, 'retail_nonfood_yoy': 36}, long_missing=108"
+executive_main_estimates_match,PASS,"rows=8, max_abs_diff=0.000475"
+executive_interactions_match,PASS,max_abs_diff=0.000498
+seven_final_figures,PASS,count=7
+figures_have_readable_dimensions,PASS,issues=[]
+reader_facing_files_exist,PASS,missing=[]
+final_report_length,PASS,words=1773
+executive_summary_length,PASS,words=195
+conclusion_length,PASS,words=119
+final_report_structure,PASS,missing=[]
+portfolio_summary_length,PASS,words=191
+no_forbidden_claims_or_buzzwords,PASS,matches=[]
+naturalness_transition_check,PASS,count=0
+retail_volume_language_present,PASS,retail-volume terminology used
+readme_image_paths,PASS,"links=6, broken=[]"
+headline_numbers_FINAL_REPORT.md,PASS,missing=[]
+headline_numbers_PORTFOLIO_SUMMARY.md,PASS,missing=[]
+headline_numbers_INTERVIEW_EXPLANATION.md,PASS,missing=[]
+phase1_notebook_inventory,PASS_WITH_NOTE,Referenced Phase 1 notebook is absent; Phase 1 remains reproducible through src/run_pipeline.py and saved validation evidence.

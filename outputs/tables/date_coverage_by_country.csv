@@ -1,0 +1,4 @@
+country_code,row_count,distinct_months,start_date,end_date,missing_calendar_months,unexpected_calendar_months
+NL,132,132,2015-01-01,2025-12-01,0,0
+DE,132,132,2015-01-01,2025-12-01,0,0
+FR,132,132,2015-01-01,2025-12-01,0,0

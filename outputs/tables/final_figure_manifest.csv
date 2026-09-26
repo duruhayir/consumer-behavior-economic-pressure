@@ -1,0 +1,8 @@
+figure,report_role,analytical_question,chart_type,supported_takeaway
+01_inflation_over_time.png,Context,How did inflation change across the three countries?,Line,"Inflation rose sharply after 2021, with different peaks by country."
+02_total_retail_growth_over_time.png,Context,How volatile was total retail-volume growth?,Line,Pandemic and reopening months created exceptional movements.
+03_food_nonfood_growth_by_country.png,Category comparison,Did food and non-food follow the same pattern?,Small-multiple line,Non-food growth was visibly more volatile than food growth.
+04_inflation_food_growth_association.png,Main finding,How was inflation related to food growth?,Scatter with descriptive fit,Higher inflation was associated with weaker food retail-volume growth.
+05_confidence_nonfood_growth_descriptive.png,Secondary finding,How was confidence related to non-food growth?,Scatter with descriptive fit,The descriptive positive relationship weakened with month effects.
+06_regression_robustness_coefficients.png,Robustness,Which coefficients changed after common-month controls?,Faceted dot-and-interval,Food inflation remained stable while several other estimates changed.
+07_category_sensitivity_interactions.png,Category sensitivity,How did food and non-food slopes differ?,Faceted dot-and-interval,Food had the more negative inflation slope; non-food had the more positive confidence slope.

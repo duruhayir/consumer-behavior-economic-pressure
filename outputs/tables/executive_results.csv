@@ -1,0 +1,9 @@
+Relationship,Original Estimate,Robust Estimate,95% CI,Interpretation,Robustness Status
+Inflation → Total growth,-0.046,-0.624,"[-1.126, -0.121]",The estimate became more negative after common monthly effects were included.,Specification-sensitive
+Inflation → Food growth,-0.786,-0.657,"[-1.179, -0.134]",Higher inflation was consistently associated with weaker food retail-volume growth.,Robust
+Inflation → Non-food growth,0.321,-0.578,"[-1.314, 0.157]",The direction changed and the robust interval included zero.,Specification-sensitive
+Confidence → Total growth,0.195,-0.025,"[-0.207, 0.156]",The original positive relationship moved close to zero with month effects.,Specification-sensitive
+Confidence → Food growth,-0.007,-0.004,"[-0.120, 0.113]",The estimate remained close to zero in both specifications.,Stable near zero
+Confidence → Non-food growth,0.309,-0.033,"[-0.316, 0.250]",The original positive relationship moved close to zero with month effects.,Specification-sensitive
+Inflation × Non-food category,0.986,0.986,"[0.182, 1.790]",Food had the more negative inflation association.,Robust category difference
+Confidence × Non-food category,0.258,0.258,"[0.032, 0.485]",Non-food had the more positive confidence association relative to food.,Robust category difference

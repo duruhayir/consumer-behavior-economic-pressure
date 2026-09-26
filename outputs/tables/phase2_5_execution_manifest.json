@@ -1,0 +1,19 @@
+{
+  "phase": 2.5,
+  "sample": "Unchanged Phase 2 analytical sample: 2016-01 through 2025-12",
+  "entities": [
+    "NL",
+    "DE",
+    "FR"
+  ],
+  "time_periods": 120,
+  "bandwidths_tested": [
+    3
+  ],
+  "kernel": "bartlett",
+  "panel_covariance": "linearmodels PanelOLS Driscoll-Kraay kernel covariance",
+  "interaction_covariance": "statsmodels hac-groupsum Driscoll-Kraay covariance",
+  "panel_rows": 12,
+  "interaction_rows": 6,
+  "model_hunting_guardrail": "No alternate bandwidth, predictor, sample, or COVID exclusion was tested"
+}

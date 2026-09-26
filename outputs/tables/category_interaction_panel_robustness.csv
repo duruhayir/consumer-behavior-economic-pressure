@@ -1,0 +1,7 @@
+term,effect_type,coefficient,standard_error,ci_lower_95,ci_upper_95,p_value,n,cross_section_series,time_periods,covariance_method,kernel,bandwidth,original_clustered_standard_error,original_clustered_ci_lower_95,original_clustered_ci_upper_95
+inflation_yoy:is_nonfood,interaction_parameter,0.986115447,0.4103610458,0.1818225767,1.790408317,0.01625925283,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,0.2293499716,0.5365977628,1.435633131
+consumer_confidence:is_nonfood,interaction_parameter,0.2584978017,0.1154868025,0.03214782808,0.4848477752,0.02519941504,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,0.07259256728,0.1162189843,0.4007766191
+food_inflation_slope,derived_category_slope,-0.725304302,0.1696111254,-1.057735999,-0.3928726049,1.900439943e-05,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,,,
+nonfood_inflation_slope,derived_category_slope,0.260811145,0.3657892046,-0.456122522,0.977744812,0.4758399342,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,,,
+food_confidence_slope,derived_category_slope,0.02189282523,0.04449992214,-0.06532541948,0.1091110699,0.6227373976,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,,,
+nonfood_confidence_slope,derived_category_slope,0.2803906269,0.103713391,0.07711611589,0.4836651379,0.006861051299,720,6,120,Driscoll-Kraay (statsmodels hac-groupsum),bartlett,3,,,

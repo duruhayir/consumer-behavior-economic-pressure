@@ -1,0 +1,215 @@
+{
+  "retrieved_at_utc": "2026-09-23T19:30:54.763070+00:00",
+  "api_base": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data",
+  "period": {
+    "start": "2015-01",
+    "end": "2025-12"
+  },
+  "countries": [
+    "NL",
+    "DE",
+    "FR"
+  ],
+  "schema_probe_urls": {
+    "sts_trtu_m": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_trtu_m?lang=en&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2015-02",
+    "prc_hicp_minr": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2015-02",
+    "ei_bsco_m": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsco_m?lang=en&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2015-02"
+  },
+  "schema_evidence": {
+    "retail": {
+      "indic_bt": {
+        "VOL_SLS": "Volume of sales",
+        "NETTUR": "Net turnover"
+      },
+      "nace_r2": {
+        "G": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+        "G45": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "G45_X_G452": "Sale of motor vehicles; sale and repair of motorcycles",
+        "G451": "Sale of motor vehicles",
+        "G452": "Maintenance and repair of motor vehicles",
+        "G453": "Sale of motor vehicle parts and accessories",
+        "G454": "Sale, maintenance and repair of motorcycles and related parts and accessories",
+        "G46": "Wholesale trade, except of motor vehicles and motorcycles",
+        "G461": "Wholesale on a fee or contract basis",
+        "G462": "Wholesale of agricultural raw materials and live animals",
+        "G463": "Wholesale of food, beverages and tobacco",
+        "G464": "Wholesale of household goods",
+        "G465": "Wholesale of information and communication equipment",
+        "G466": "Wholesale of other machinery, equipment and supplies",
+        "G467": "Other specialised wholesale",
+        "G469": "Non-specialised wholesale trade",
+        "G47": "Retail trade, except of motor vehicles and motorcycles",
+        "G47_FOOD": "Retail sale of food, beverages and tobacco",
+        "G47_NFOOD": "Retail sale of non-food products (including fuel)",
+        "G47_NFOOD_X_G473": "Retail sale of non-food products (except fuel)",
+        "G47_NF_CLTH": "Retail sale of textiles, clothing, footware and leather goods in specialised stores",
+        "G47_NF_HLTH": "Dispensing chemist; retail sale of medical and orthopaedic goods, cosmetic and toilet articles in specialised stores",
+        "G47_NF_OTH": "Retail sale of information and communication equipment; other household equipment (except textiles); cultural and recreation goods, etc. in specialised stores",
+        "G47_NF_OTH1": "Retail sale of computers, peripheral units and software; telecommunications equipment, etc. in specialised stores",
+        "G47_NF_OTH2": "Retail sale of audio and video equipment; hardware, paints and glass; electrical household appliances, etc. in specialised stores",
+        "G47_X_G473": "Retail trade, except of motor vehicles, motorcyles and fuel",
+        "G471": "Retail sale in non-specialised stores",
+        "G4711": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+        "G4719": "Other retail sale in non-specialised stores",
+        "G472": "Retail sale of food, beverages and tobacco in specialised stores",
+        "G473": "Retail sale of automotive fuel in specialised stores",
+        "G474": "Retail sale of information and communication equipment in specialised stores",
+        "G475": "Retail sale of other household equipment in specialised stores",
+        "G476": "Retail sale of cultural and recreation goods in specialised stores",
+        "G477": "Retail sale of other goods in specialised stores",
+        "G478": "Retail sale via stalls and markets",
+        "G479": "Retail trade not in stores, stalls or markets",
+        "G4791": "Retail sale via mail order houses or via Internet"
+      },
+      "s_adj": {
+        "NSA": "Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data)",
+        "CA": "Calendar adjusted data, not seasonally adjusted data",
+        "SCA": "Seasonally and calendar adjusted data"
+      },
+      "unit": {
+        "I21": "Index, 2021=100",
+        "I15": "Index, 2015=100",
+        "I10": "Index, 2010=100",
+        "PCH_PRE": "Percentage change on previous period",
+        "PCH_SM": "Percentage change compared to same period in previous year"
+      }
+    },
+    "inflation": {
+      "classification_dimension": "coicop18",
+      "all_items_code": "TOTAL",
+      "all_items_label": "Total",
+      "unit_label": "Annual rate of change"
+    },
+    "consumer_confidence": {
+      "indic": {
+        "BS-FS-LY": "Financial situation over the last 12 months",
+        "BS-FS-NY": "Financial situation over the next 12 months",
+        "BS-GES-LY": "General economic situation over the last 12 months",
+        "BS-GES-NY": "General economic situation over the next 12 months",
+        "BS-PT-LY": "Price trends over the last 12 months",
+        "BS-PT-NY": "Price trends over the next 12 months",
+        "BS-UE-NY": "Unemployment expectations over the next 12 months",
+        "BS-MP-PR": "The current economic situation is adequate to make major  purchases",
+        "BS-MP-NY": "Major purchases over the next 12 months",
+        "BS-SV-NY": "Savings over the next 12 months",
+        "BS-SFSH": "Statement on financial situation of household",
+        "BS-CSMCI": "Consumer confidence indicator"
+      },
+      "s_adj": {
+        "NSA": "Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data)",
+        "SA": "Seasonally adjusted data, not calendar adjusted data"
+      },
+      "unit": {
+        "BAL": "Balance"
+      }
+    }
+  },
+  "sources": {
+    "retail": {
+      "dataset": "sts_trtu_m",
+      "file": "retail_sts_trtu_m_2015_2025.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_trtu_m?lang=en&freq=M&indic_bt=VOL_SLS&nace_r2=G47&nace_r2=G47_FOOD&nace_r2=G47_NFOOD_X_G473&s_adj=SCA&unit=I21&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2025-12",
+      "selection": {
+        "freq": "M",
+        "indic_bt": "VOL_SLS",
+        "nace_r2": [
+          "G47",
+          "G47_FOOD",
+          "G47_NFOOD_X_G473"
+        ],
+        "s_adj": "SCA",
+        "unit": "I21",
+        "geo": [
+          "NL",
+          "DE",
+          "FR"
+        ],
+        "sinceTimePeriod": "2015-01",
+        "untilTimePeriod": "2025-12"
+      },
+      "dimensions_returned": [
+        "freq",
+        "indic_bt",
+        "nace_r2",
+        "s_adj",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "sizes_returned": [
+        1,
+        1,
+        3,
+        1,
+        1,
+        3,
+        132
+      ]
+    },
+    "inflation": {
+      "dataset": "prc_hicp_minr",
+      "file": "inflation_prc_hicp_minr_2015_2025.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=RCH_A&coicop18=TOTAL&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2025-12",
+      "selection": {
+        "freq": "M",
+        "unit": "RCH_A",
+        "coicop18": "TOTAL",
+        "geo": [
+          "NL",
+          "DE",
+          "FR"
+        ],
+        "sinceTimePeriod": "2015-01",
+        "untilTimePeriod": "2025-12"
+      },
+      "dimensions_returned": [
+        "freq",
+        "unit",
+        "coicop18",
+        "geo",
+        "time"
+      ],
+      "sizes_returned": [
+        1,
+        1,
+        1,
+        3,
+        132
+      ]
+    },
+    "consumer_confidence": {
+      "dataset": "ei_bsco_m",
+      "file": "consumer_confidence_ei_bsco_m_2015_2025.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsco_m?lang=en&freq=M&indic=BS-CSMCI&s_adj=SA&unit=BAL&geo=NL&geo=DE&geo=FR&sinceTimePeriod=2015-01&untilTimePeriod=2025-12",
+      "selection": {
+        "freq": "M",
+        "indic": "BS-CSMCI",
+        "s_adj": "SA",
+        "unit": "BAL",
+        "geo": [
+          "NL",
+          "DE",
+          "FR"
+        ],
+        "sinceTimePeriod": "2015-01",
+        "untilTimePeriod": "2025-12"
+      },
+      "dimensions_returned": [
+        "freq",
+        "indic",
+        "s_adj",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "sizes_returned": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        132
+      ]
+    }
+  }
+}

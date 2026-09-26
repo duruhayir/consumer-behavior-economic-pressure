@@ -1,0 +1,15 @@
+check,status,severity_if_failed,evidence
+master_row_count_unchanged,PASS,critical,rows=396
+master_key_unique,PASS,critical,duplicate keys=0
+master_hash_matches_execution_manifest,PASS,critical,sha256=c6cdd7ca0838af17732bf3539c372df93cadde8fd0ee8289e9934a02c71ab4e7
+required_tables_present,PASS,critical,missing=[]
+required_figures_present,PASS,critical,missing=[]
+figures_have_readable_dimensions,PASS,medium,issues=[]
+notebook_valid_nbformat,PASS,critical,cells=27
+notebook_all_code_cells_executed,PASS,critical,unexecuted_code_cells=[]
+notebook_has_no_error_outputs,PASS,critical,error_outputs=0
+pearson_correlations_recomputed,PASS,critical,differences=[]
+pooled_models_independently_recomputed,PASS,critical,differences=[]
+retail_charts_use_yoy_not_raw_index,PASS,critical,raw_index_references_in_create_figures=[]
+findings_contains_key_executed_numbers,PASS,critical,missing=[]
+no_causal_or_forecasting_claims,PASS,critical,matches=[]
